@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th = "http://www.thymeleaf.org">
+<head>
+	<title>Traveling Generations</title>
+</head>
+<body>
+	<h1> National Park Review:</h1>
+
+	<div th:each = "review: ${reviews}">
+		<p th:text = "${review.itemTitle}"></p>
+		<p th:text = "${review.imgUrl}"></p>
+		<p th:text = "${review.reviewCategory}"></p>
+		<p th:text = "${review.reviewContent}"></p>
+		<p th:text = "${review.synopsis}"></p>
+		<a href="http:localhost:8080/show-reviews">Back to home</a>
+	</div>
+</body>
+</html>
