@@ -1,0 +1,51 @@
+* {
+	font-family:Times, Times New Roman, Palatino, Bookman, New Century Schoolbook, serif;
+}
+
+body {
+	background: radial-gradient(black,hsl(160,50%,15%));
+}
+
+title {
+	font-size: 120% ;
+	font-style: oblique;
+	text-align: left; 
+}
+
+h1 {
+	color: white;
+	width: 80%;
+	font-size: 120%;
+	text-align: center;
+	font-style: bold; 
+}
+
+h2 {
+	color: white;
+	width: 80%;
+	font-style: bold;
+	text-align: center;
+	padding: 10px;
+}
+
+h3 {
+	color:hsl(120,60%,90%);
+	width:80%;
+	font-style: italic;
+	text-align:left;
+}
+
+p, ul {
+	color:hsl(120,60%,90%);
+	white-space: 110%;
+	width: 80%;
+	text-align: left;
+	font-size: 90%;
+
+}
+
+img1 {
+	width: 70%
+	padding: 15%;
+	
+}

@@ -13,8 +13,8 @@ public class ReviewRepository {
 	
 	public ReviewRepository() {
 		Review grandCanyonNorthRim = new Review(1111L, "The Grand Canyon, North Rim",
-				"https://www.flickr.com/photos/steffophotography/15020176542/in/photolist-28aUUDS-e21BG2-XzSbpw-C1Vpfm-aLEBhV-XALqqL-oThkc5-nz7EW7-dompH1-e4MkMi-YouYui-mKeJm-qowLgf-e4MkJv-nRy5YW-acYPdH-r3Z5SQ-mKehJ-mKeRH-ZQ1C5f-5EaZU7-a1BWcr-dr2Pkb-DHyF8-25pigGU-8rWdDm-sg4m2i-rAAwBd-dJwSig-pJ9JdG-cr3Tps-qV5hEJ-f4hV1N-9Jtr7i-qVpVD5-SHUWEn-GRZK1F-96MWzq-4kSWnM-hkV86Q-K2GM8M-HcuX6c-9nPpkN-9XipAW-TEdXoG-bZGUpL-fw3ucj-p3ky38-dCZJ5b-4gijHA/lightbox/",
-				"National Parks Reviews for People Who Don't Plan",
+				"/images/starparty.jpg",
+				"Western Parks, 2017",
 				"We stopped at the North Rim of Grand Canyon National Park just in time for their Star Party. This was a trip without itinerary, so there was no booking ahead. "
 				+ "That means we had no expectation of getting a campsite at the grand canyon. We just had Lydia, who doesn't know a stranger. Our plan was to let her do her Jr. Ranger thing and"
 				+ " hike around a bit to see the sights and search for elusive kaibab squirrels, then move on and find a campsite further along the road."
@@ -24,8 +24,9 @@ public class ReviewRepository {
 				+ "The facilities were excellent. The people were friendly. We never did see those squirrels, though.",
 				"Not too busy. Amazing views. Come for the Star Party. You'll be amazed... but unless you're lucky, you have to plan ahead!");
 		
-		Review joshuaTree = new Review(1112L, "Joshua Tree", "https://www.flickr.com/photos/paulasun/33055097483/in/photolist-SmY1RR-7rKGR5-7rGDta-eWmpQR-eWmy5n-677kKt-dopooX-DQe6Tv-oKg7eP-64QwCE-67byWN-8WTJSA-buvLUG-anZoGe-qMhERV-7rGNS6-8PGy3b-SBw44Z-232DQDW-FKLfnz-d7scJw-XCiso7-zeM8n-EPXEch-5FCSN5-95cC9u-8a5SQ1-DQe7bK-bifNdV-9R9BmF-AhmN9f-22sgaKf-95cD7E-babjDM-p2u6ov-6rqdpb-8a2HyV-6yMVLv-42YtSS-a3fV6h-p4fiW9-aJVwiv-iXD1zk-4zNXSA-9AKx8t-9BWoPK-7TMq86-VZMyRD-VZMEmB-6w48bi",
-				"National Parks Reviews for People Who Don't Plan",
+		Review joshuaTree = new Review(1112L, "Joshua Tree", 
+				"/images/joshuatree.jpg",
+				"Western Parks, 2017",
 				"Joshua Tree was HOT! 104 when we arrived in the evening. Too hot to cook. Almost too hot to set up our tents. But everything was bone-dry, so it was great for star-gazing. "
 				+ "Then the obnoxious teenagers or twenty-somethings arrived. Then there was a viper in the bathroom. But quiet came and sleep did too. We had to break camp early to beat the heat"
 				+ "of the next day and get some hiking it. It would top 110." + "/n /t The thing about Joshua Tree is the trails aren't marked so well. They meander up rocks and down slopes and there are dy stream beds"
@@ -37,8 +38,9 @@ public class ReviewRepository {
 				+ "and wild landscapes. Joshua Tree looks like something out of /'The Land Before Time/'. But it was obscenely hot. Even in the cool of the car, my phone crapped out and we got a little lost.",
 				"Wild landscapes! Some trails are not suitable for young children or unathletic old people.");
 		
-		Review carlsbadCaverns = new Review(1113L, "Carlsbad Caverns", "https://www.flickr.com/photos/mathieulebreton/7828989980/in/photolist-cVPBXS-2A6raq-26gfnTT-dsCbxZ-dsB51b-4zp6iP-27yz4WQ-dsCfLe-4wb2j3-cWFn9y-cWFydw-571Dbo-abXzTs-am3z3H-am3DYH-yUVEQv-25oL5dU-owm1aB-dsAzyY-bYfBGs-2zFjBq-kQxe2n-9epNJX-6UFQBx-KQprjN-4eX7Ut-kNEczJ-buopct-dCy749-9X15aZ-W7yu3L-kQvyHn-26MdHXp-4ckwed-buophp-cYE8GE-dPdFKC-hLo58h-2zACgx-am6sAA-8aaTSs-fNS5d5-onWTef-6UKVHN-ZAqQqF-XVfA6a-21SknH9-XwyMPw-GYxJuk-YztoDy", 
-				"National Parks Reviews for People Who Don't Plan",
+		Review carlsbadCaverns = new Review(1113L, "Carlsbad Caverns", 
+				"/images/carlsbad.jpg",
+				"Western Parks, 2017",
 				"Carlsbad Caverns is on the southern border of New Mexico and Texas. We sought it out early on in our trip because my kid loves bats. She's obsessed with them. The problem was"
 				+ "that our map (yes, we're navigating by map in this day and age. We had planned on going through some rough terrain and wifi doesn't reach everywhere) was from 2009."
 				+ "A lot can change in 8 years. The campsite we wanted to visit? Yeah, turns out that doesn't exist anymore. So we went to the Carlsbad Caverns Visitor Center to inquire."
@@ -54,8 +56,9 @@ public class ReviewRepository {
 				+ "and how the caves were formed. We got dripped on and prayed it wasn't guano. It wasn't. And we beat the heat! Also, we decided that the things they name cave structures are lame.", 
 				"Carlsbad Caverns National Park is fascinating! They also need more camping in the region. BATNADO!");
 		
-		Review yosemite = new Review(1114L, "Yosemite", "https://www.flickr.com/photos/radiantmark/3526156625/in/photolist-6nAtvT-KVvP1e-nQFJFG-nQAYMf-anmkrm-cgL3nu-cgL9EW-cgLoVC-cgL9hN-cgLMSS-cgLEVy-cgLAxA-r42Mpp-f9T5eq-amnJCd-nfz7XP-aN3KER-yuUE8i-qzk8oA-ayb5YD-88iCsu-hPffav-97yFYd-fNjM2u-93TWcd-f3hK5Q-o8mjBY-P8Vo6d-L9CM9j-97CJj2-9pXC4o-rC8P4N-7trfYT-9h3BS5-di2KNc-eTjAJU-iGuZXp-Mq91yb-ed8ddP-rQoZUe-TdXVWw-UtSKwK-CK46Ld-f3hG5S-f33szX-wBGNWv-AGmCB-HgXjGh-gpgojC-eTkUJC",
-				"National Parks Reviews for People Who Don't Plan",
+		Review yosemite = new Review(1114L, "Yosemite",
+				"/images/yosemite.jpg",
+				"Western Parks, 2017",
 				"Yosemite National Park is not for people who don't plan. Nevermind the campsite. You have to get there early just to find a place to park! It feels like the whole valley is nothing but a parking lot."
 				+ "Joni Mitchell knows what's up. We tried to check the place out in the evening, but got so fed up driving around, looking for somewhere to park, that we just gave up and went back to the campsite in the end and decided to come back the next morning."
 				+ "/n /t We'd heard about the congestion and found a site about a 30 minute drive away from the camp entrance earlier in the day.  \"There are plenty of sites like this on the way up the mountain. Finding a spot wasn't hard."

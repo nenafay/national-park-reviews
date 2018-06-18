@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th = "http://www.thymeleaf.org" lang="en">
 <head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href = "styles/style.css"/>
 	<title>Traveling Generations</title>
 </head>
 <body>
-	<h1>National Park Reviews</h1>
+	<img th:src = "@{${/images/generational.jpg}}"/> 
+	<h1>National Park Reviews for People Who Don't Plan</h1>
 
 	<div th:each = "review:${reviews}">
 	<ul>
